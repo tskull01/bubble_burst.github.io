@@ -39,6 +39,7 @@ function draw(){
 background(100); 
 if(clicked == true){
 strokeWeight(10);
+
 //line(width/2,770,mouseX,670);
 }
 //Check for game over
