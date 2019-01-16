@@ -3,7 +3,7 @@ this.x = x;
 this.y = y; 
 this.bubble = createSprite(this.x, this.y, 60,60);
 this.bubble.setCollider("circle",0,0,53); 
-this.bubble.setVelocity = (0,-1); 
+this.bubble.setVelocity = (0,-2); 
 //this.bubble.debug = true;
 this.velocity = 7;
 this.imageInt = floor(random(1,6));

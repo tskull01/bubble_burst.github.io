@@ -7,7 +7,7 @@ var wallLeft, wallRight,wallTop;
 var rows;
 var WALL_THICKNESS = 30;
 function setup(){
-createCanvas(850, 900);
+createCanvas(850,900);
 fullscreen();
 rows = 4;
 //Starting player bubble
@@ -37,6 +37,7 @@ for(var i = 0; i < 8; i ++){
 }
 function draw(){
 background(100); 
+text("Click to fire bubble", width - 150, height - 50);
 if(clicked == true){
 strokeWeight(10);
 
